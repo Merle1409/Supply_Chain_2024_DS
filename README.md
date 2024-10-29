@@ -28,14 +28,15 @@
 # initial_feature_processing.ipynb - accomplishes the following:
 # 1.	Create additional useful columns from existing data
 # 2.	Transform categorical columns to numeric wherever appropriate
+# 3.    Basic text preprocessing such as initial cleaning, removing of stop words, punctuations, and special characters, calculating text length, tokenizing and counting word frequencies, most common words, basic sentiment scores, and filtering out non-EN text rows
 # produces data_trustpilot.csv
-# 3.    Basic text preprocessing such as initial cleaning, removing of stop words, punctuations, and special characters, calculate text length, tokenize and count word frequencies, most common words, and filters out non-EN text rows
 
 # exploratory_data_analysis_trustpilot.ipynb - accomplishes the following:
-# 1.	Univariate analysis using .describe, mean, mode, median, data visualizations, Q-Q plot 
-# 2.	Multivariate analysis with target data visualizations, mean ratings by category, groupbys for numeric variables
-# 3.	Time series plot 
-# 4.	Perform groupby analyses for location, company and username
+# 1.	Univariate analysis using .describe, mean, mode, median, data visualizations, Q-Q plot, word-frequency plots
+# 2.	Multivariate analysis with target data visualizations, mean ratings by category, groupbys for numeric variables, word length distribution by rating
+# 3.    Wordclouds
+# 4.	Time series plot 
+# 5.	Perform groupby analyses for location, company and username
 # produces data_trustpilot_2.csv
 
 # advanced_feature_processing.ipynb - accomplishes the following:
@@ -59,8 +60,8 @@
 # 13.	Random Forest importance
 # 14.	Logistic regression analysis for variable relationships including rig ratio
 # 15.	Validate and compare methods
-# 16.	Dimension reduction if needed
-# 17.   Scaling/nornalization/standardization
+# 16.	Scaling/nornalization/standardization
+# 17.   Dimensionality reduction if needed
 # 18.   Oversampling/undersampling
 # 19.   Cross-validation
 # 20.	Update train/test split for training and test data based on feature selection
