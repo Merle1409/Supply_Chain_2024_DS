@@ -26,9 +26,16 @@
 # produces data_trustpilot_first.csv
 
 # initial_feature_processing.ipynb - accomplishes the following:
-# 1.	Create additional useful columns from existing data
-# 2.	Transform categorical columns to numeric wherever appropriate
-# 3.    Basic text preprocessing such as initial cleaning, removing of stop words, punctuations, and special characters, calculating text length, tokenizing and counting word frequencies, most common words, basic sentiment scores, and filtering out non-EN text rows
+# 1.    Filtering out non-EN text rows
+# 2.	Create additional useful columns from existing data
+# 3.    Basic text preprocessing such as:
+#       - initial cleaning, 
+#       - removing of stop words, punctuations, and special characters, 
+#       - calculating text length, 
+#       - tokenizing and counting word frequencies, 
+#       - most common words, 
+#       - basic sentiment scores, 
+#       - identifying words and phrases that might indicate positive or negative reviews
 # produces data_trustpilot.csv
 
 # exploratory_data_analysis_trustpilot.ipynb - accomplishes the following:
